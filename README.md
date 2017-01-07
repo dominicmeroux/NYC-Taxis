@@ -3,4 +3,5 @@ This Python program uses PySpark to assess the proportion of New York City taxic
 
 # Prerequisites
 Download data from https://data.cityofnewyork.us/Transportation/Medallion-Vehicles-Authorized/rhe8-mgbb
- 
+
+Must install pyspark. In this case, PySpark version 2.0.0 was used.  
