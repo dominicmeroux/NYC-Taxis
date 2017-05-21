@@ -1,9 +1,9 @@
 # Authorized NYC Medallion Vehicles
 # Dataset downloaded from https://data.cityofnewyork.us/Transportation/Medallion-Vehicles-Authorized/rhe8-mgbb
-# Downloaded August 10, 2016
-# Analysis uses Spark Version 2.0.0
+# Prior download August 10, 2016 using Spark version 2.0.0
+# Latest download March 3, 2017 using Spark version 2.1.0
 
-df = spark.read.csv('/Users/dmeroux/Downloads/m8DI5uks.csv', header=True)
+df = spark.read.csv('/Volumes/SANDISK128/m8DI5uks.csv', header=True)
 
 VehTypes = df.groupBy("Vehicle Type").count()
 VehTypes.show()
